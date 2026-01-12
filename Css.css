@@ -16,33 +16,115 @@ img{
   border-radius: 40px;
 }
 
-button{
-  width: 210px;
-  height: 30px;
-  background-color: orange;
-  color: white;
-  border: 3px solid orange;
-  font-size: 18px;
-  font-family: sans-serif;
-  border-radius: 5px;
-  position: relative;
-  top: 5px;
-  
-}
-
-button:hover{
-  background-color: transparent;
-  color: orange;
-}
-
 .container {
     text-align: center;
   }
 
+/* Sidebar */
+.sidebar {
+  width: 100px;
+  background: #ffffff;
+  border-right: 2px solid #eee;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 20px;
+  transition: transform 0.3s ease;
+  z-index: 999;
+}
 
+.logo {
+  color: #6a0dad;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
 
+.sidebar nav a {
+  display: block;
+  padding: 12px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #444;
+  border-radius: 8px;
+}
 
+.sidebar nav a:hover {
+  background: #f2e9ff;
+  color: #6a0dad;
+}
 
+.sidebar nav a.active {
+  background: #6a0dad;
+  color: white;
+}
+
+/* Content spacing (NO style change) */
+.content-wrapper {
+  margin-left: 260px;
+  padding: 10px;
+}
+
+/* Mobile menu button */
+.menu-btn {
+  display: none;
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  background: #6a0dad;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  font-size: 20px;
+  border-radius: 6px;
+  z-index: 1000;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .sidebar {
+    transform: translateX(-100%);
+  }
+
+  .sidebar.show {
+    transform: translateX(0);
+  }
+
+  .content-wrapper {
+    margin-left: 0;
+    padding-top: 60px;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+}
+
+/* FIX MOBILE MENU BUTTON */
+.menu-btn {
+  width: 48px !important;
+  height: 48px !important;
+  padding: 0 !important;
+  border-radius: 4px !important;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .menu-btn {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    background: #6a0dad;
+    color: white;
+    border: none;
+    font-size: 22px;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    z-index: 1000;
+  }
+}
 
 
 
