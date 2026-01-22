@@ -12,6 +12,7 @@ h2,h1{
   text-align: center;
 }
 
+
 /* Sidebar */
 .sidebar {
   width: 100px;
@@ -143,7 +144,8 @@ h2,h1{
 }
 
 .qc-card img {
-  width: 90px;
+  height: 250px;
+  width: 270px;
   margin-bottom: 12px;
 }
 
