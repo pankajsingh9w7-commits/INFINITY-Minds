@@ -40,7 +40,7 @@ html, body {
 
 /* ---------------- SIDEBAR ---------------- */
 .sidebar {
-  width: 100px;
+  width: 150px;
   background: #ffffff;
   border-right: 2px solid #eee;
   height: 100vh;

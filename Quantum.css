@@ -1,78 +1,15 @@
 body{
-  background-color: beige;
-  
-}
-
-
-.o{
-  position: relative;
-  top: -10px;
-  width: 340px;
-  height: 55px;
-  border: solid ;
-  border-radius: 5px;
-  background-color: white;
+  background-color: cornsilk;
 }
 
 img{
-  height: 50px;
-  width: 50px;
-  float: left;
-  position: relative;
-  left: 2px;
-  top: 3px;
-}
-
-.Pi{
-  height: 25px;
-  width: 90px;
-  position: relative;
-  top: 15px;
-  right: 10px; 
-  float: right;
-  background-color: plum;
-}
-
-.Py{
-  
-  position: relative;
-  top: 20px;
-  right:-4px;
-}
-
-.main{
-  position: relative;
-  top: 1px;
-  width:345px;
+  width:350px;
   height: 200px;
   border-radius: 40px;
 }
 
-.p{
-  position: relative;
-  top: 5px;
-}
-
-
-h1{
+h2,h1{
   text-align: center;
-}
-
-.Yi{
-  
-  position: relative;
-  top: -40px;
-}
-
-
-.Ui{
-  position: relative;
-  top: -45px;
-  width: 340px;
-  height: 55px;
-  border: solid ;
-  border-radius: 5px;
-  background-color: white;
 }
 
 /* Sidebar */
@@ -183,42 +120,48 @@ h1{
 
 
 
+.section-heading {
+  text-align: center;
+  font-size: 28px;
+  color: ;
+  margin: 25px 0;
+}
 
+.qc-container {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 10px;
+}
 
+.qc-card {
+  background: #f3e8ff;
+  border-radius: 18px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(90, 24, 154, 0.15);
+}
 
+.qc-card img {
+  width: 90px;
+  margin-bottom: 12px;
+}
 
+.qc-card h3 {
+  color: #3c096c;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
 
+.qc-card p {
+  font-size: 15px;
+  color: #333;
+  line-height: 1.6;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-e
-
-
-
+/* Mobile Friendly */
+@media (max-width: 768px) {
+  .qc-card {
+    margin: 0 10px;
+  }
+}
