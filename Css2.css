@@ -4,6 +4,7 @@ body{
 }
 
 
+
 .o{
   position: relative;
   top: -10px;
@@ -77,7 +78,7 @@ h1{
 
 /* Sidebar */
 .sidebar {
-  width: 100px;
+  width: 180px;
   background: #ffffff;
   border-right: 2px solid #eee;
   height: 100vh;
@@ -90,6 +91,9 @@ h1{
 }
 
 .logo {
+  position: relative;
+  top: -20px;
+  left: 13px;
   color: #6a0dad;
   text-align: center;
   margin-bottom: 30px;
@@ -218,7 +222,7 @@ h1{
 
 
 
-e
+
 
 
 
