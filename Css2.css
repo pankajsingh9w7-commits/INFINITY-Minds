@@ -2,25 +2,14 @@ body{
   background-color: beige;
   
 }
-.m{
-  position: relative;
-  top: -85px;
-  text-align: center;
-  font-size: 30px;
-}
+
 .u{
   position: relative;
   top: 20px;
   right: -7px;
 }
 
-.k{
-  position: relative;
-  top: -1px;
-  left: 80px;
-  font-size: 30px; 
-  
-}
+
 
 .i{
   position: relative;
