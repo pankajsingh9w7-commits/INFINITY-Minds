@@ -1,29 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+  <!-- Home -->
   <url>
     <loc>https://infinitymind1.netlify.app/</loc>
     <priority>1.0</priority>
   </url>
 
+  <!-- Courses -->
   <url>
-    <loc>https://infinitymind1.netlify.app/index.html</loc>
-    <priority>1.0</priority>
+    <loc>https://infinitymind1.netlify.app/course.html</loc>
+    <priority>0.9</priority>
   </url>
 
+  <!-- Computer -->
   <url>
     <loc>https://infinitymind1.netlify.app/Computer.html</loc>
     <priority>0.9</priority>
   </url>
 
+  <!-- Quantum -->
   <url>
     <loc>https://infinitymind1.netlify.app/Quantum.html</loc>
     <priority>0.9</priority>
   </url>
 
+  <!-- Downloads -->
   <url>
     <loc>https://infinitymind1.netlify.app/Download.html</loc>
     <priority>0.7</priority>
+  </url>
+
+  <!-- Feedback (only if exists) -->
+  <url>
+    <loc>https://infinitymind1.netlify.app/feedback.html</loc>
+    <priority>0.6</priority>
   </url>
 
 </urlset>
