@@ -1,0 +1,84 @@
+/* ===== INFINITY MINDS GLOBAL DARK THEME ===== */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #0b0f1a;
+  color: #f1f5f9;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #a855f7;
+}
+
+/* Paragraph text */
+p {
+  color: #cbd5e1;
+}
+
+/* Cards */
+.card {
+  background-color: #111827;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 0 25px rgba(168, 85, 247, 0.15);
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Buttons */
+button, .btn {
+  background-color: #7c3aed;
+  color: black;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+button:hover, .btn:hover {
+  background-color: #6d28d9;
+  box-shadow: 0 0 12px #7c3aed;
+}
+
+/* Links */
+a {
+  color: #a855f7;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Why Section - FIXED TO DARK */
+.why-section {
+  background-color: #111827;   /* dark instead of light */
+  padding: 60px 20px;
+}
+
+.why-section h2 {
+  color: #a855f7;
+}
+
+.why-section p,
+.why-section li {
+  color: #cbd5e1;
+}
+
+
+    
+
+
+
+
+
+
+

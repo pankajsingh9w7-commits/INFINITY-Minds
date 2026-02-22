@@ -5,53 +5,59 @@
   font-family: Arial, sans-serif;
 }
 
+/* BODY - matched dark theme */
 body {
-  background: cornsilk;
+  background: #0b0f1a;   /* dark professional */
+  color: #e5e7eb;
 }
 
 /* SIDEBAR */
 .sidebar {
-  width: 220px;
+  font-family: 'Cinzel', serif;
+  width: 255px;
   height: 100vh;
   position: fixed;
   left: 0;
   top: 0;
-  background: white;
-  border-right: 2px solid #eee;
+  background: #111827;   /* match theme */
+  border-right: 1px solid #1f2937; /* subtle dev border */
   padding: 20px;
-  z-index: 1000;
+  z-index: 999;
 }
 
 .logo {
+  font-family: 'Cinzel', serif;
   text-align: center;
-  color: #6a0dad;
+  color: #FFFFFF;
   margin-bottom: 30px;
 }
 
 .sidebar nav a {
+  font-family: 'Cinzel', serif;
   display: block;
   padding: 12px;
   text-decoration: none;
-  color: #444;
+  color: #cbd5e1;   /* fixed dark theme text */
   border-radius: 8px;
   margin-bottom: 8px;
+  transition: 0.3s;
 }
 
 .sidebar nav a.active,
 .sidebar nav a:hover {
-  background: #6a0dad;
+  background: linear-gradient(45deg, #7b2ff7, #9f44d3);
   color: white;
 }
 
 /* CONTENT */
 .content-wrapper {
-  margin-left: 220px;
+  margin-left: 255px;  /* fixed alignment */
 }
 
 /* HERO */
 .header {
   padding: 80px 20px;
-  background: linear-gradient(135deg, #6a0dad, #9b59b6);
+  background: linear-gradient(135deg, #1e1b4b, #312e81);
   color: white;
   text-align: center;
 }
@@ -59,8 +65,8 @@ body {
 .btn {
   display: inline-block;
   margin-top: 20px;
-  background: white;
-  color: #6a0dad;
+  background: #7c3aed;
+  color: white;
   padding: 12px 25px;
   border-radius: 25px;
   text-decoration: none;
@@ -81,10 +87,10 @@ body {
 }
 
 .card {
-  background: white;
+  background: #1f2937;   /* dark card */
   padding: 20px;
   border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }
 
 /* ROADMAP */
@@ -93,23 +99,18 @@ body {
   text-align: center;
 }
 
-.roadmap img {
-  width: 90%;
-  max-width: 600px;
-}
-
 /* WHY */
-.why {
+.why-section {
   padding: 40px 20px;
-  background: #f2e9ff;
+  background: #111827;
 }
 
 /* FOOTER */
 footer {
   text-align: center;
   padding: 15px;
-  background: #6a0dad;
-  color: white;
+  background: #111827;
+  color: #9ca3af;
 }
 
 /* MOBILE */
@@ -118,11 +119,11 @@ footer {
   position: fixed;
   top: 15px;
   left: 15px;
-  background: #6a0dad;
+  background: #7c3aed;
   color: white;
   border: none;
   font-size: 22px;
-  padding: 10px;
+  padding: 10px 14px;
   z-index: 1100;
 }
 
@@ -144,5 +145,20 @@ footer {
     display: block;
   }
 }
+
+.active {
+  background: linear-gradient(45deg, #7b2ff7, #9f44d3);
+  color: white;
+  border-radius: 12px;
+}
+.b{
+  position: fixed;
+  top: 600px;
+}
+
+
+
+
+
 
 

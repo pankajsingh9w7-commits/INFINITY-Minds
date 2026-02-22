@@ -15,8 +15,9 @@ h2,h1{
 
 /* Sidebar */
 .sidebar {
-  width: 185px;
-  background: #ffffff;
+  font-family: 'Cinzel', serif;
+  width: 210px;
+  background: #0f0f1a;
   border-right: 2px solid #eee;
   height: 100vh;
   position: fixed;
@@ -28,10 +29,11 @@ h2,h1{
 }
 
 .logo {
+  font-family: 'Cinzel', serif;
   position: relative;
   top: -20px;
   left: 13px;
-  color: #6a0dad;
+  color: #FFFFFF;
   text-align: center;
   margin-bottom: 30px;
   font-weight: bold;
@@ -170,3 +172,26 @@ h2,h1{
     margin: 0 10px;
   }
 }
+
+.active {
+  background: linear-gradient(45deg, #7b2ff7, #9f44d3);
+  color: white;
+  border-radius: 12px;
+  
+  
+}
+
+.b{
+  position: fixed;
+  top: 600px;
+}
+
+
+
+
+
+
+
+
+
+

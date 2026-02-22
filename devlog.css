@@ -1,31 +1,67 @@
-
-body{
-  background-color: cornsilk;
-  
+body {
+  background: #0f0f1a;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
 }
 
-ul{
-  text-align: start;
-}
-
-.hg{
+.page-header {
   text-align: center;
-}
- 
-img{
-  width:350px;
-  height: 200px;
-  border-radius: 40px;
+  padding: 60px 20px;
 }
 
-.container {
-    text-align: center;
+.page-header h1 {
+  font-size: 2.5rem;
+  color: #a855f7;
+}
+
+.page-header p {
+  opacity: 0.8;
+}
+
+.tools-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  padding: 40px;
+}
+
+.tool-card {
+  background: #1a1a2e;
+  width: 280px;
+  padding: 25px;
+  border-radius: 15px;
+  transition: 0.4s ease;
+  box-shadow: 0 0 15px rgba(168, 85, 247, 0.2);
+}
+
+.tool-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 25px rgba(168, 85, 247, 0.6);
+}
+
+.tool-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #a855f7;
+  text-decoration: none;
+}
+
+.tool-card a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .tool-card {
+    width: 90%;
   }
+}
 
 /* Sidebar */
 .sidebar {
   font-family: 'Cinzel', serif;
-  width: 210pxpx;
+  width: 220px;
   background: #0f0f1a;
   border-right: 2px solid #eee;
   height: 100vh;
@@ -133,6 +169,12 @@ img{
   }
 }
 
+.sidebar a:hover {
+  background: rgba(128, 0, 255, 0.1);
+  padding-left: 10px;
+  transition: 0.3s;
+}
+
 .active {
   background: linear-gradient(45deg, #7b2ff7, #9f44d3);
   color: white;
@@ -140,12 +182,20 @@ img{
   
 }
 
-
-
 .b{
   position: fixed;
   top: 600px;
 }
+
+
+button:hover, .btn:hover {
+  background-color: #6d28d9;
+  box-shadow: 0 0 12px #7c3aed;
+}
+
+
+
+
 
 
 
