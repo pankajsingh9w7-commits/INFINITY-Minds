@@ -1,14 +1,10 @@
 
-
 img{
   height: 200px;
   width: 350px;
   border-radius: 45px;
   
-  
 }
-
-
 
 h1{
   text-align: center;
@@ -124,7 +120,6 @@ h1{
     left: 15px;
     z-index: 1000;
   }
-}
 
 .active {
   background: linear-gradient(45deg, #7b2ff7, #9f44d3);

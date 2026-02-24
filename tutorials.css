@@ -1,0 +1,142 @@
+/* ===== GLOBAL STYLES ===== */
+body {
+  background: #0b1020;
+  color: white;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* Center all content */
+}
+
+/* ===== MAIN HEADING ===== */
+h1 {
+  color: #a855f7;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+/* ===== SECTION HEADINGS ===== */
+h2 {
+  color: #a855f7;
+  margin-bottom: 10px;
+}
+
+/* ===== TUTORIAL CARD ===== */
+.tutorial-card {
+  background: #111827;
+  padding: 25px;
+  border-radius: 16px;
+  margin-bottom: 25px;
+
+  width: 100%;
+  max-width: 500px;
+
+  text-align: center;
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tutorial-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(168, 85, 247, 0.4);
+}
+
+/* ===== DESCRIPTION TEXT ===== */
+.tutorial-card p {
+  color: #cbd5e1;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* ===== WATCH BUTTON ===== */
+.watch-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 22px;
+
+  background: linear-gradient(45deg, #a855f7, #9333ea);
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 14px;
+
+  transition: all 0.3s ease;
+}
+
+.watch-btn:hover {
+  background: linear-gradient(45deg, #9333ea, #7e22ce);
+  transform: scale(1.05);
+}
+
+/* ===== BACK BUTTON ===== */
+.back-btn {
+  display: block;
+  margin: 30px auto;
+  padding: 10px 20px;
+
+  background: #6a0dad;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+
+  transition: 0.3s ease;
+}
+
+.back-btn:hover {
+  background: #9333ea;
+}
+
+/* ===== HR STYLE ===== */
+hr {
+  width: 100%;
+  max-width: 500px;
+  border: 0.5px solid #2d3748;
+  margin: 20px 0;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 22px;
+  }
+
+  .tutorial-card {
+    padding: 20px;
+  }
+}
+
+
+.changelog-btn {
+  display: block;                 /* Makes it centerable */
+  margin: 25px auto;              /* Centers horizontally */
+  padding: 12px 22px;
+
+  background: linear-gradient(45deg, #a855f7, #9333ea);
+  color: white;
+  border: none;
+  border-radius: 10px;
+
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+}
+
+.changelog-btn:hover {
+  background: linear-gradient(45deg, #9333ea, #7e22ce);
+  transform: scale(1.05);
+}
+
+
+
+
+
+.
