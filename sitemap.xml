@@ -64,4 +64,11 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- Developer Tutorials -->
+  <url>
+    <loc>https://infinitymind1.netlify.app/developer-tutorials.html</loc>
+    <lastmod>2026-02-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>
