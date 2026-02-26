@@ -1,6 +1,12 @@
-function toggleSidebar() {
-  document.getElementById("sidebar").classList.toggle("show");
-}
+document.addEventListener("DOMContentLoaded", function () {
 
-alert("Welcome to INFINITY Minds Website Finds best Courses For beginner ")
+  const menuBtn = document.getElementById("menuBtn");
+  const sidebar = document.getElementById("sidebar");
 
+  if (menuBtn && sidebar) {
+    menuBtn.addEventListener("click", function () {
+      sidebar.classList.toggle("show");
+    });
+  }
+
+});
