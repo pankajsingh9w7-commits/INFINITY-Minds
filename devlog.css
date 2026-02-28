@@ -227,6 +227,18 @@ button:hover, .btn:hover {
 }
 
 
+.menu-btn:focus {
+  outline: 3px solid #ffffff;
+  outline-offset: 3px;
+}
+
+
+
+
+
+
+
+
 
 
 

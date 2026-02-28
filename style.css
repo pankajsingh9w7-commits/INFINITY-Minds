@@ -171,7 +171,11 @@ footer {
   }
 }
 
-
+.sidebar a:hover {
+  background: rgba(128, 0, 255, 0.1);
+  padding-left: 10px;
+  transition: 0.3s;
+}
 
 .b{
   position: fixed;
