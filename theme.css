@@ -131,7 +131,55 @@ a:hover {
   transform: scale(1.05);
 }
 
+/* ===== MARCH 1 SPECIAL SECTIONS ===== */
 
+/* Launch Banner */
+.launch-banner {
+  padding: 60px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #1e1b4b, #312e81);
+  border-bottom: 1px solid #1f2937;
+}
+
+.launch-banner h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.launch-banner p {
+  font-size: 16px;
+  color: #e0e7ff;
+}
+
+/* Phase 2 Section */
+.phase-two {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #111827;
+}
+
+.phase-two h2 {
+  margin-bottom: 15px;
+}
+
+.phase-two p {
+  max-width: 700px;
+  margin: 10px auto;
+}
+
+/* Founder Section */
+.founder-note {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #0f172a;
+}
+
+.founder-note p {
+  max-width: 750px;
+  margin: 10px auto;
+  font-size: 16px;
+}
 
 
 

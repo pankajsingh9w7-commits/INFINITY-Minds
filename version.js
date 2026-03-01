@@ -1,6 +1,6 @@
 const appInfo = {
-  version: "2.5.2",
-  releaseDate: "28 February 2026",
+  version: "2.5.6",
+  releaseDate: "1 March 2026",
   changes: {
     added: [
       "Version history system added",
