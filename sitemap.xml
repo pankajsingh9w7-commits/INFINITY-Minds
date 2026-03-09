@@ -72,3 +72,18 @@
   </url>
 
 </urlset>
+
+        <!-- FAQ -->  
+<url>
+  <loc>https://infinitymind1.netlify.app/faq.html</loc>
+  <lastmod>2026-03-08</lastmod>
+  <priority>0.7</priority>
+</url>
+
+         <!-- Contact --> 
+
+<url>
+  <loc>https://infinitymind1.netlify.app/contact.html</loc>
+  <lastmod>2026-03-08</lastmod>
+  <priority>0.7</priority>
+</url>
