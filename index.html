@@ -67,32 +67,61 @@
 }
 </script>
 
+  <!-- Website Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://infinitymind1.netlify.app/#website",
+  "url": "https://infinitymind1.netlify.app/",
+  "name": "INFINITY Minds",
+  "alternateName": "InfinityMind1",
+  "description": "INFINITY Minds is an educational platform providing coding tutorials, programming resources, and developer tools for students and beginners.",
+  "publisher": {
+    "@id": "https://infinitymind1.netlify.app/#organization"
+  },
+  "inLanguage": "en",
+  "copyrightHolder": {
+    "@id": "https://infinitymind1.netlify.app/#organization"
+  }
+}
+</script>
+  
   <script defer src="home1.js"></script>
 </head>
 
 <body>
 
-<!-- MENU BUTTON -->
-<button class="menu-btn" id="menuBtn" aria-label="Open Menu">☰</button>
+ <!-- MENU BUTTON (MOBILE) -->
+<button class="menu-btn" onclick="toggleSidebar()">☰</button>
 
 <!-- SIDEBAR -->
 <aside class="sidebar" id="sidebar">
   <h2 class="logo">INFINITY</h2>
   <nav>
-    <a href="index.html" class="active">Home 🌐</a>
+    <a href="index.html" class="active">Home 🌐</a> 
     <a href="Computer.html">Computer Basics 💻</a>
     <a href="Course.html">Programming 🛰️</a>
     <a href="devlog.html">Developer Tools 🛠️</a>
     <a href="Quantum.html">Quantum Computing ⚛️</a>
     <a href="Download.html">Downloads 📥</a>
-    <a href="feedback.html">Feedback 📬</a>
-    <a href="about.html" class="b">About INFINITY 🧠</a>
+    <a href="feedback.html" >Feedback 📬</a>
+    <a href="faq.html">FAQ❓</a>
+    <a href="contact.html">Contact ✉️</a>
+    <a href="about.html" class="b">About INFINITY 🧠 </a>
   </nav>
 </aside>
 
 <!-- MAIN CONTENT -->
-<main class="content-wrapper">
-
+<div class="content-wrapper">
+  
+ <script>
+function toggleSidebar() {
+  document.getElementById("sidebar").classList.toggle("show");
+}
+</script>
+  
+  
   <!-- 🔥 SPECIAL LAUNCH BANNER -->
   <section class="launch-banner" role="region" aria-label="InfinityMinds Phase 2 Announcement">
     <h2>🚀 NEW ERA STARTS NOW</h2>
@@ -161,17 +190,21 @@
       The base system is now complete.
       The next step is delivering powerful learning experiences.
     </p>
+    
     <p><strong>— Pankaj Panwar, Founder of INFINITYMinds</strong></p>
     <p><strong>— Shivin Gusain, Technical Advisor & QA Tester</strong></p>
   </section>
 
-</main>
+
 
 <!-- FOOTER -->
 <footer>
   <p>© 2026 INFINITY Minds</p>
-  <p>Version 2.5.2</p>
+  <p>Version 2.7.0</p>
 </footer>
 
+  
+  </main>
+  
 </body>
 </html>
